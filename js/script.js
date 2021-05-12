@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img: "images/hotdog.png",
     },
   ];
+  itemArray.sort(() => 0.5 - Math.random());
   var box = document.querySelector(".box");
   let score = document.querySelector("#score");
   var cardChoosen = [];
